@@ -97,32 +97,123 @@ textarea {
 
 
 html {
-  background-color: #fff;
-  height: 100%;
+    background: url(../img/cosmos.jpg) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    height: 100%;
+    font-size: 16px;
 }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: 1em;
   height: 100%;
+}
+
+#intro {
+   
+    
+}
+
+h1, p, h2{
+    color: white;
+}
+
+.intro {
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+    font-size: 20em;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+    margin: 0;
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding:inherit;
+    align-items: center;
+    margin: inherit;
+}
+
+.bio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3em;
+    margin: 1em;
+    padding: inherit;
+}
+
+p {
+    font-size: 1em;
+    padding: ;
+    margin: 0;
+    padding: 3em;
+}
+
+#p1 {
+    border-radius: 10px;
+    margin: inherit;
+    background-color: rgba(0, 0, 0, .5);
+    width: 50%;
+    filter:drop-shadow(5px 5px 10px black);
+}
+
+#p2 {
+    border-radius: 10px;
+    margin: inherit;
+    background-color: rgba(0, 0, 0, .5);
+    width: 50%;
+    filter:drop-shadow(5px 5px 10px black);
+}
+
+#quotes {
+    
+}
+
+.quotes {
+    display: flex;
+    justify-content: center;
+    padding:inherit;
+    padding-bottom: 0;
+    align-items: center;
+    margin: inherit;
+    
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
     display: flex;
     justify-content: space-between;
-  font-weight: 700;
+    font-weight: 700;
+    margin: inherit;
+    padding: inherit;
+    padding-top: 0;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+    align-items: center;
+    background-color: rgba(25, 25, 112, .5);
+    border-radius: 10px;
+    color: white;
     display: flex;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+    filter:drop-shadow(5px 5px 10px black);
+    font-size: 1.6em;
+    height: inherit;
+    justify-content: center;
+    line-height: 1.5em;
+    padding: 1em;
+    margin: 1em;
     width: 30%;
 }
 
