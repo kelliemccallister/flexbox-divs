@@ -114,7 +114,7 @@ body {
   height: 100%;
 }
 
-h1, p, h2{
+h1, p, h2, a{
     color: white;
 }
 
@@ -205,8 +205,20 @@ p {
     width: 30%;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
 
+a {
+    text-decoration: none;
+}
 
+a:hover {
+    color: #C2B7D1;
+}
 
 /* ==========================================================================
    Helper classes
